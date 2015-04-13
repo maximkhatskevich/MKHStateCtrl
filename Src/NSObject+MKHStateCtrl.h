@@ -17,8 +17,8 @@ MKHObjectState;
 
 //===
 
-typedef BOOL (^MKHStateWillChangeHandler)(int currentState, int targetState);
-typedef void (^MKHStateDidChangeHandler)(int previousState, int currentState);
+typedef BOOL (^MKHStateWillChangeHandler)(int previousState, int newState);
+typedef void (^MKHStateDidChangeHandler)(int previousState, int newState);
 
 //===
 
