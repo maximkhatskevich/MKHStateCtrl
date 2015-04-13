@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		501CCC0B1ACC65DB00E3B11C /* MKHState.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKHState.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		501CCC0B1ACC65DB00E3B11C /* MKHStateCtrl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKHStateCtrl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		501CCC0F1ACC65DB00E3B11C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		501CCC101ACC65DB00E3B11C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		501CCC121ACC65DB00E3B11C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		501CCC191ACC65DB00E3B11C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		501CCC1B1ACC65DB00E3B11C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		501CCC1E1ACC65DC00E3B11C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		501CCC241ACC65DC00E3B11C /* MKHStateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKHStateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		501CCC241ACC65DC00E3B11C /* MKHStateCtrlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKHStateCtrlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		501CCC291ACC65DC00E3B11C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		501CCC2A1ACC65DC00E3B11C /* MKHStateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKHStateTests.m; sourceTree = "<group>"; };
 		501CCC381ACC666300E3B11C /* NSObject+MKHStateCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MKHStateCtrl.h"; sourceTree = "<group>"; };
@@ -68,8 +68,8 @@
 			isa = PBXGroup;
 			children = (
 				501CCC371ACC666300E3B11C /* Lib */,
-				501CCC0D1ACC65DB00E3B11C /* MKHState */,
-				501CCC271ACC65DC00E3B11C /* MKHStateTests */,
+				501CCC0D1ACC65DB00E3B11C /* MKHStateCtrl */,
+				501CCC271ACC65DC00E3B11C /* MKHStateCtrlTests */,
 				501CCC0C1ACC65DB00E3B11C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,13 +77,13 @@
 		501CCC0C1ACC65DB00E3B11C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				501CCC0B1ACC65DB00E3B11C /* MKHState.app */,
-				501CCC241ACC65DC00E3B11C /* MKHStateTests.xctest */,
+				501CCC0B1ACC65DB00E3B11C /* MKHStateCtrl.app */,
+				501CCC241ACC65DC00E3B11C /* MKHStateCtrlTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		501CCC0D1ACC65DB00E3B11C /* MKHState */ = {
+		501CCC0D1ACC65DB00E3B11C /* MKHStateCtrl */ = {
 			isa = PBXGroup;
 			children = (
 				501CCC121ACC65DB00E3B11C /* AppDelegate.h */,
@@ -95,7 +95,7 @@
 				501CCC1D1ACC65DC00E3B11C /* LaunchScreen.xib */,
 				501CCC0E1ACC65DB00E3B11C /* Supporting Files */,
 			);
-			path = MKHState;
+			path = MKHStateCtrl;
 			sourceTree = "<group>";
 		};
 		501CCC0E1ACC65DB00E3B11C /* Supporting Files */ = {
@@ -107,13 +107,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		501CCC271ACC65DC00E3B11C /* MKHStateTests */ = {
+		501CCC271ACC65DC00E3B11C /* MKHStateCtrlTests */ = {
 			isa = PBXGroup;
 			children = (
 				501CCC2A1ACC65DC00E3B11C /* MKHStateTests.m */,
 				501CCC281ACC65DC00E3B11C /* Supporting Files */,
 			);
-			path = MKHStateTests;
+			path = MKHStateCtrlTests;
 			sourceTree = "<group>";
 		};
 		501CCC281ACC65DC00E3B11C /* Supporting Files */ = {
@@ -138,9 +138,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		501CCC0A1ACC65DB00E3B11C /* MKHState */ = {
+		501CCC0A1ACC65DB00E3B11C /* MKHStateCtrl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 501CCC2E1ACC65DC00E3B11C /* Build configuration list for PBXNativeTarget "MKHState" */;
+			buildConfigurationList = 501CCC2E1ACC65DC00E3B11C /* Build configuration list for PBXNativeTarget "MKHStateCtrl" */;
 			buildPhases = (
 				501CCC071ACC65DB00E3B11C /* Sources */,
 				501CCC081ACC65DB00E3B11C /* Frameworks */,
@@ -150,14 +150,14 @@
 			);
 			dependencies = (
 			);
-			name = MKHState;
+			name = MKHStateCtrl;
 			productName = MKHState;
-			productReference = 501CCC0B1ACC65DB00E3B11C /* MKHState.app */;
+			productReference = 501CCC0B1ACC65DB00E3B11C /* MKHStateCtrl.app */;
 			productType = "com.apple.product-type.application";
 		};
-		501CCC231ACC65DC00E3B11C /* MKHStateTests */ = {
+		501CCC231ACC65DC00E3B11C /* MKHStateCtrlTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 501CCC311ACC65DC00E3B11C /* Build configuration list for PBXNativeTarget "MKHStateTests" */;
+			buildConfigurationList = 501CCC311ACC65DC00E3B11C /* Build configuration list for PBXNativeTarget "MKHStateCtrlTests" */;
 			buildPhases = (
 				501CCC201ACC65DC00E3B11C /* Sources */,
 				501CCC211ACC65DC00E3B11C /* Frameworks */,
@@ -168,9 +168,9 @@
 			dependencies = (
 				501CCC261ACC65DC00E3B11C /* PBXTargetDependency */,
 			);
-			name = MKHStateTests;
+			name = MKHStateCtrlTests;
 			productName = MKHStateTests;
-			productReference = 501CCC241ACC65DC00E3B11C /* MKHStateTests.xctest */;
+			productReference = 501CCC241ACC65DC00E3B11C /* MKHStateCtrlTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -191,7 +191,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 501CCC061ACC65DB00E3B11C /* Build configuration list for PBXProject "MKHState" */;
+			buildConfigurationList = 501CCC061ACC65DB00E3B11C /* Build configuration list for PBXProject "MKHStateCtrl" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -204,8 +204,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				501CCC0A1ACC65DB00E3B11C /* MKHState */,
-				501CCC231ACC65DC00E3B11C /* MKHStateTests */,
+				501CCC0A1ACC65DB00E3B11C /* MKHStateCtrl */,
+				501CCC231ACC65DC00E3B11C /* MKHStateCtrlTests */,
 			);
 		};
 /* End PBXProject section */
@@ -255,7 +255,7 @@
 /* Begin PBXTargetDependency section */
 		501CCC261ACC65DC00E3B11C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 501CCC0A1ACC65DB00E3B11C /* MKHState */;
+			target = 501CCC0A1ACC65DB00E3B11C /* MKHStateCtrl */;
 			targetProxy = 501CCC251ACC65DC00E3B11C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -362,9 +362,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = MKHState/Info.plist;
+				INFOPLIST_FILE = MKHStateCtrl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MKHStateCtrl;
 			};
 			name = Debug;
 		};
@@ -372,9 +373,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = MKHState/Info.plist;
+				INFOPLIST_FILE = MKHStateCtrl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MKHStateCtrl;
 			};
 			name = Release;
 		};
@@ -390,10 +392,10 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = MKHStateTests/Info.plist;
+				INFOPLIST_FILE = MKHStateCtrlTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MKHState.app/MKHState";
+				PRODUCT_NAME = MKHStateCtrlTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MKHStateCtrl.app/MKHStateCtrl";
 			};
 			name = Debug;
 		};
@@ -405,17 +407,17 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = MKHStateTests/Info.plist;
+				INFOPLIST_FILE = MKHStateCtrlTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MKHState.app/MKHState";
+				PRODUCT_NAME = MKHStateCtrlTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MKHStateCtrl.app/MKHStateCtrl";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		501CCC061ACC65DB00E3B11C /* Build configuration list for PBXProject "MKHState" */ = {
+		501CCC061ACC65DB00E3B11C /* Build configuration list for PBXProject "MKHStateCtrl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				501CCC2C1ACC65DC00E3B11C /* Debug */,
@@ -424,7 +426,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		501CCC2E1ACC65DC00E3B11C /* Build configuration list for PBXNativeTarget "MKHState" */ = {
+		501CCC2E1ACC65DC00E3B11C /* Build configuration list for PBXNativeTarget "MKHStateCtrl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				501CCC2F1ACC65DC00E3B11C /* Debug */,
@@ -433,7 +435,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		501CCC311ACC65DC00E3B11C /* Build configuration list for PBXNativeTarget "MKHStateTests" */ = {
+		501CCC311ACC65DC00E3B11C /* Build configuration list for PBXNativeTarget "MKHStateCtrlTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				501CCC321ACC65DC00E3B11C /* Debug */,
