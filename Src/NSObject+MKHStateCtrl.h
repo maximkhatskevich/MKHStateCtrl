@@ -32,7 +32,4 @@ typedef void (^MKHStateDidChangeHandler)(int previousState, int currentState);
 - (void)setOnStateWillChange:(MKHStateWillChangeHandler)onStateWillChangeHandler;
 - (void)setOnStateDidChange:(MKHStateDidChangeHandler)onStateDidChangeHandler;
 
-- (void)switchToState:(int)targetState;
-- (void)switchToState:(int)targetState completion:(void(^)())completion;
-
 @end

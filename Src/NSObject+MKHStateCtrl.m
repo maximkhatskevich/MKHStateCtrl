@@ -105,14 +105,4 @@ static void *MKHOnStateDidChangeKey;
                              OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
-- (void)switchToState:(int)targetState
-{
-    [self switchToState:targetState completion:nil];
-}
-
-- (void)switchToState:(int)targetState completion:(void(^)())completion
-{
-    // SHOULD be implemented in a custom class
-}
-
 @end
