@@ -1,6 +1,6 @@
 //
-//  NSObject+MKHState.h
-//  MKHState
+//  NSObject+MKHStateCtrl.h
+//  MKHStateCtrl
 //
 //  Created by Maxim Khatskevich on 01/04/15.
 //  Copyright (c) 2015 Maxim Khatsevich. All rights reserved.
@@ -22,7 +22,7 @@ typedef void (^MKHStateDidChangeHandler)(int previousState, int currentState);
 
 //===
 
-@interface NSObject (MKHState)
+@interface NSObject (MKHStateCtrl)
 
 @property int state;
 

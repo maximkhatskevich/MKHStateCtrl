@@ -1,12 +1,12 @@
 //
-//  NSObject+MKHState.m
-//  MKHState
+//  NSObject+MKHStateCtrl.m
+//  MKHStateCtrl
 //
 //  Created by Maxim Khatskevich on 01/04/15.
 //  Copyright (c) 2015 Maxim Khatsevich. All rights reserved.
 //
 
-#import "NSObject+MKHState.h"
+#import "NSObject+MKHStateCtrl.h"
 
 #import <objc/runtime.h>
 
@@ -18,7 +18,7 @@ static void *MKHOnStateDidChangeKey;
 
 //===
 
-@implementation NSObject (MKHState)
+@implementation NSObject (MKHStateCtrl)
 
 #pragma mark - Property accessors
 

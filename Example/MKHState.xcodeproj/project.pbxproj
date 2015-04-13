@@ -14,7 +14,7 @@
 		501CCC1C1ACC65DB00E3B11C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 501CCC1B1ACC65DB00E3B11C /* Images.xcassets */; };
 		501CCC1F1ACC65DC00E3B11C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 501CCC1D1ACC65DC00E3B11C /* LaunchScreen.xib */; };
 		501CCC2B1ACC65DC00E3B11C /* MKHStateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 501CCC2A1ACC65DC00E3B11C /* MKHStateTests.m */; };
-		501CCC3A1ACC666300E3B11C /* NSObject+MKHState.m in Sources */ = {isa = PBXBuildFile; fileRef = 501CCC391ACC666300E3B11C /* NSObject+MKHState.m */; };
+		501CCC3A1ACC666300E3B11C /* NSObject+MKHStateCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 501CCC391ACC666300E3B11C /* NSObject+MKHStateCtrl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +41,9 @@
 		501CCC241ACC65DC00E3B11C /* MKHStateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKHStateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		501CCC291ACC65DC00E3B11C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		501CCC2A1ACC65DC00E3B11C /* MKHStateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKHStateTests.m; sourceTree = "<group>"; };
-		501CCC381ACC666300E3B11C /* NSObject+MKHState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MKHState.h"; sourceTree = "<group>"; };
-		501CCC391ACC666300E3B11C /* NSObject+MKHState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MKHState.m"; sourceTree = "<group>"; };
-		501CCC3B1ACC67E600E3B11C /* MKHState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKHState.h; sourceTree = "<group>"; };
+		501CCC381ACC666300E3B11C /* NSObject+MKHStateCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MKHStateCtrl.h"; sourceTree = "<group>"; };
+		501CCC391ACC666300E3B11C /* NSObject+MKHStateCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MKHStateCtrl.m"; sourceTree = "<group>"; };
+		501CCC3B1ACC67E600E3B11C /* MKHStateCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKHStateCtrl.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,9 +127,9 @@
 		501CCC371ACC666300E3B11C /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				501CCC3B1ACC67E600E3B11C /* MKHState.h */,
-				501CCC381ACC666300E3B11C /* NSObject+MKHState.h */,
-				501CCC391ACC666300E3B11C /* NSObject+MKHState.m */,
+				501CCC3B1ACC67E600E3B11C /* MKHStateCtrl.h */,
+				501CCC381ACC666300E3B11C /* NSObject+MKHStateCtrl.h */,
+				501CCC391ACC666300E3B11C /* NSObject+MKHStateCtrl.m */,
 			);
 			name = Lib;
 			path = ../Src;
@@ -237,7 +237,7 @@
 			files = (
 				501CCC171ACC65DB00E3B11C /* ViewController.m in Sources */,
 				501CCC141ACC65DB00E3B11C /* AppDelegate.m in Sources */,
-				501CCC3A1ACC666300E3B11C /* NSObject+MKHState.m in Sources */,
+				501CCC3A1ACC666300E3B11C /* NSObject+MKHStateCtrl.m in Sources */,
 				501CCC111ACC65DB00E3B11C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
